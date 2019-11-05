@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    height: 20;
+    
+
+}.grid > div{
+    display: grid;
+    grid-template-columns: 8fr 20fr 32fr 40fr;
+    grid-gap: 1em;
+    grid-column: 1/span 1;
+
+}
+
+    .grid div{
+    background: #fff;
+    padding: 1em;
+}
+
+.grid > div:nth-child(odd){
+    background: #ddd;
+}
